@@ -1,0 +1,107 @@
+    3  ls -l
+    4  ls -lt
+    5  ls -lt | head
+    6  date ; sleep 2 ; date
+    7  man sleep
+    8  cd ~
+    9  grep Chr7 cuffdiff.txt > fav_chr_cuffdidd.txt
+   10  wget https://raw.githubusercontent.com/prog4biol/pfb2018/master/files/cuffdiff.txt
+   11  cd ~
+   12  grep Chr7 cuffdiff.txt > fav_chr_cuffdiff.txt
+   13  grep Chr9 cuffdiff.txt >> fav_chr_cuffdiff.txt
+   14  cat blablabla.txt
+   15  cat blablabla.txt > errors.txt
+   16  cat fav_chr_cuffdiff.txt blablabla.file > out.txt 2> err.txt
+   17  ls out.txt
+   18  print out.txt
+   19  cat fav_chr_cuffdiff.txt blablabla.file > all_out_err.txt 2>&1
+   20  cat out.t   21  cd ~
+   22  mkdir problemsets
+   23  pwd
+   24  cd problemsets/
+   25  pwd
+   26  wget https://raw.githubusercontent.com/prog4biol/pfb2018/master/files/sequences.nt.fa
+   27  wc < sequences.nt.fa 
+   28  head < sequences.nt.fa 
+   29  tail -n 3 <sequences.nt.fa 
+   30  grep -A -a '>'
+   31  grep -A -o '>' sequences.nt.fa 
+   32  grep '>' sequences.nt.fa 
+   33  mv sequences.nt.fa cancer_genes.fasta
+   34  wget  https://raw.githubusercontent.com/prog4biol/pfb2018/master/files/cuffdiff.txt
+   35  head cuffdiff.txt  
+   48  sort -k 10 cuffdiff.txt sorted.cuffdiff.out 
+   49  cd
+   50  echo "# PFB_problemsets" >> README.md
+   51  git init
+   52  git add README.md
+   53  git commit -m "first commit"
+   54  git remote add origin https://github.com/crisPFB/PFB_problemsets.git
+   55  git push -u origin master
+   58  nano git_exercises.txt
+   59  git add git_exercises.txt 
+   60  git commit -m 'added a line of text' 
+   61  git push origin master
+   62  git clone https://github.com/prog4biol/pfb2018.git
+   63  cd /problemsets
+   64  ls
+   65  cd problemsets/
+   66  ls
+   67  head sorted.cuffdiff.out 
+   68  history
+   69  ls
+   70  head sorted.cuffdiff.out 
+   71  cd ./
+   72  ls
+   73  cd ~
+   74  ls
+   75  head out
+   76  head out.txt 
+   77  cd problemsets/
+   78  ls
+   79  sort -k 10 cuffdiff.txt sorted.cuffdiff.out 
+   85  cat sorted.cuffdiff.out 
+   86  head sorted.cuffdiff.out 
+   87  cd ~
+   88  ls
+   89  git add files/cancer_genes.fasta
+   90  cd problemsets/
+   91  git add files/cancer_genes.fasta
+   92  ls
+   93  git add cancer_genes.fasta 
+   94  git commit -m 'adding cancer_genes.fasta'
+   95  git push
+   96  git status
+   97  git pull
+   98  mkdir git
+   99  cd git
+  100  ls
+  101  git init
+  102  git remote add
+  103  ls -al ~/.ssh
+  104  ssh-keygen -t rsa -b 4096 -C "cdesanti@cshl.edu"
+  105  ls
+  106  nano mysequences.txt
+  107  git add mysequences.txt
+  108  nano mysequences.txt
+  117  ls
+  119  pwd
+  120  cd problemsets
+  121  cd ..
+  122  ls
+  123  add git/mysequences.txt 
+  124  git add git/mysequences.txt 
+  125  commit -m 'mysequences.txt'
+  126  git commit -m 'mysequences.txt'
+  127  git push
+  128  mkdir fastas
+  129  ls
+  130  cp cancer_genes.fasta fastas
+  131  cd fastas
+  132  ls
+  133  cd ..
+  134  ls
+  135  rm cancer_genes.fasta 
+  136  ls
+  137  git pull
+  142  history > unixBasics.history.txt
