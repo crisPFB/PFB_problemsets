@@ -14,3 +14,17 @@ string.format(countAs, countTs, countCs, countGs)
 new_string = string.format(countAs, countTs, countCs, countGs)
 
 print(new_string)
+
+#Convert Ts in Us
+
+rna =  dna.replace('T','U')
+
+print(rna)
+
+#Convert Ts in Us in mixed cases
+
+rna = dna.replace('T','U')
+rnaL = rna.replace('t','u')
+print(rnaL)
+
+#AT DNA content
